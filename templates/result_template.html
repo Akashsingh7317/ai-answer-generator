@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AI Answer + Diagram</title>
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+  <style>
+    body {
+      font-family: Arial;
+      padding: 30px;
+      background: #f4f6f9;
+    }
+    .box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+    }
+  </style>
+
+</head>
+<body>
+
+<div class="box">
+  <h2>AI Answer</h2>
+  <p>{{ANSWER}}</p>
+</div>
+
+<div class="box">
+  <h2>Diagram</h2>
+  <div class="mermaid">
+    {{DIAGRAM}}
+  </div>
+</div>
+
+</body>
+</html>

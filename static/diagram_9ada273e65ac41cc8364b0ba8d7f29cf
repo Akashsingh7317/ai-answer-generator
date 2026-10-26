@@ -1,0 +1,16 @@
+digraph {
+	bgcolor=white rankdir=TB
+	node [fontcolor=white fontname=Helvetica fontsize=14 penwidth=0 shape=box style="rounded,filled"]
+	edge [arrowhead=vee arrowsize=0.8 penwidth=1.2]
+	node0 [label=<html> fillcolor="#2F80ED" height=1 width=3.5]
+	node1 [label=<head> fillcolor="#1ABC9C" height=1 width=3.5]
+	node2 [label=<title>Cloud Computing</title> fillcolor="#27AE60" height=1 width=3.5]
+	node3 [label=</head> fillcolor="#F2994A" height=1 width=3.5]
+	node4 [label=<body> fillcolor="#9B51E0" height=1 width=3.5]
+	node5 [label=<h3>Definition</h3> fillcolor="#EB5757" height=1 width=3.5]
+	node0 -> node1
+	node1 -> node2
+	node2 -> node3
+	node3 -> node4
+	node4 -> node5
+}
