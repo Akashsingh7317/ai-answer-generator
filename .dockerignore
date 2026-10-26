@@ -1,0 +1,8 @@
+.env
+venv/
+uploads/
+vector_cache/
+chroma_db/
+data/
+__pycache__/
+.git/
